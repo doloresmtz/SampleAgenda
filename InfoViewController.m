@@ -28,7 +28,12 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
-     self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
+    self.stepper.autorepeat=YES;
+    self.stepper.minimumValue=0;
+    self.stepper.maximumValue=100;
+    self.stepper.stepValue=20;
+    self.stepper.value=100;
+    self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,5 +55,6 @@
 
 - (IBAction)stepperChange:(id)sender {
     self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
+    self.intro.alpha=(double)self.stepper.value/100;
 }
 @end
