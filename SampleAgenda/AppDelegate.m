@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Globals.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,35 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    pos = 4; //Comenzamos con bart
+    trans=100;
+    
+    imagesArray = [[NSMutableArray alloc]initWithObjects:
+                   @"march.gif",
+                   @"magy.jpg",
+                   @"lissa.jpg",
+                   @"homero.jpg",
+                   @"bar.gif",
+                   nil
+                   ];
+    namesArray = [[NSMutableArray alloc]initWithObjects:
+                  @"March Simpson",
+                  @"Maggie Simpson",
+                  @"Lissa Simpson",
+                  @"Homero Simpson",
+                  @"Bart Simpson",
+                  nil
+                  ];
+    agesArray = [[NSMutableArray alloc] initWithObjects:
+                 @"39",
+                 @"1",
+                 @"10",
+                 @"40",
+                 @"11",
+                 nil
+                 ];
+
     return YES;
 }
 							

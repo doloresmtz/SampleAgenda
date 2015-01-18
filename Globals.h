@@ -15,6 +15,8 @@ NSMutableArray *agesArray;
 int pos;
 float trans;
 
+
 @interface Globals : NSObject
+
 
 @end

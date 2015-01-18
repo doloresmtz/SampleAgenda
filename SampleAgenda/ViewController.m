@@ -21,36 +21,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.imgIntro.image = [UIImage imageNamed:imagesArray[pos]];
+    self.imgIntro.alpha=(double)trans/100;
     
-    
-    pos = 4; //Comenzamos con bart
-    trans=100;
-    
-    imagesArray = [[NSMutableArray alloc]initWithObjects:
-                  @"march.gif",
-                  @"magy.jpg",
-                  @"lissa.jpg",
-                  @"homero.jpg",
-                  @"bar.gif",
-                  nil
-                  ];
-    namesArray = [[NSMutableArray alloc]initWithObjects:
-                   @"March Simpson",
-                   @"Maggie Simpson",
-                   @"Lissa Simpson",
-                   @"Homero Simpson",
-                   @"Bart Simpson",
-                   nil
-                   ];
-    agesArray = [[NSMutableArray alloc] initWithObjects:
-                 @"39",
-                 @"1",
-                 @"10",
-                 @"40",
-                 @"11",
-                 nil
-                 ];
-
 }
 
 - (void)didReceiveMemoryWarning

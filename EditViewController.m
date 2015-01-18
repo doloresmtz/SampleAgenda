@@ -29,7 +29,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
   
+    self.introImage.image = [UIImage imageNamed:imagesArray[pos]];
     self.introImage.alpha=(double)trans/100;
+    
     self.name.text=namesArray[pos];
     self.age.text=agesArray[pos];
 }

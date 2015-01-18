@@ -37,8 +37,11 @@
     self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
     
     self.introImage.image = [UIImage imageNamed:imagesArray[pos]];
+    self.intro.alpha=(double)trans/100;
     self.labelname.text=namesArray[pos];
     self.labelage.text=agesArray[pos];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,6 +64,6 @@
 - (IBAction)stepperChange:(id)sender {
     self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
     trans=self.stepper.value;
-    self.intro.alpha=(double)self.stepper.value/100;
+    self.introImage.alpha=(double)trans/100;
 }
 @end
