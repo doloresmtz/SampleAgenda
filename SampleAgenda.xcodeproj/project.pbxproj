@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F808F53A1A6B91B700E5CA5F /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F808F5391A6B91B700E5CA5F /* InfoViewController.m */; };
 		F83F8C7F1A6B739F0074F347 /* march.gif in Resources */ = {isa = PBXBuildFile; fileRef = F83F8C7A1A6B739F0074F347 /* march.gif */; };
 		F83F8C801A6B739F0074F347 /* magy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F83F8C7B1A6B739F0074F347 /* magy.jpg */; };
 		F83F8C811A6B739F0074F347 /* lissa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F83F8C7C1A6B739F0074F347 /* lissa.jpg */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F808F5381A6B91B700E5CA5F /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = ../InfoViewController.h; sourceTree = "<group>"; };
+		F808F5391A6B91B700E5CA5F /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = ../InfoViewController.m; sourceTree = "<group>"; };
 		F83F8C7A1A6B739F0074F347 /* march.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = march.gif; path = images/march.gif; sourceTree = "<group>"; };
 		F83F8C7B1A6B739F0074F347 /* magy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = magy.jpg; path = images/magy.jpg; sourceTree = "<group>"; };
 		F83F8C7C1A6B739F0074F347 /* lissa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lissa.jpg; path = images/lissa.jpg; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				F8F8A4751A6B72D10064E5FC /* AppDelegate.h */,
 				F8F8A4761A6B72D10064E5FC /* AppDelegate.m */,
 				F8F8A4781A6B72D10064E5FC /* Main.storyboard */,
+				F808F5381A6B91B700E5CA5F /* InfoViewController.h */,
+				F808F5391A6B91B700E5CA5F /* InfoViewController.m */,
 				F8F8A47B1A6B72D10064E5FC /* ViewController.h */,
 				F8F8A47C1A6B72D10064E5FC /* ViewController.m */,
 				F8F8A47E1A6B72D10064E5FC /* Images.xcassets */,
@@ -271,6 +276,7 @@
 			files = (
 				F8F8A47D1A6B72D10064E5FC /* ViewController.m in Sources */,
 				F8F8A4771A6B72D10064E5FC /* AppDelegate.m in Sources */,
+				F808F53A1A6B91B700E5CA5F /* InfoViewController.m in Sources */,
 				F8F8A4731A6B72D10064E5FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
