@@ -51,4 +51,8 @@
 }
 */
 
+- (IBAction)editData:(id)sender {
+    namesArray[pos]=self.name.text;
+    agesArray[pos]=self.age.text;
+}
 @end

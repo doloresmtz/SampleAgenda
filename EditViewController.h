@@ -10,8 +10,9 @@
 
 @interface EditViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *saveData;
-@property (weak, nonatomic) IBOutlet UITextField *name;
 @property (weak, nonatomic) IBOutlet UITextField *age;
 @property (weak, nonatomic) IBOutlet UIImageView *introImage;
+@property (weak, nonatomic) IBOutlet UITextField *name;
+- (IBAction)editData:(id)sender;
 
 @end

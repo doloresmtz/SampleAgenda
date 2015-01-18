@@ -180,12 +180,13 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6P-vj-MGW" userLabel="ButtonSave">
-                                <rect key="frame" x="228" y="348" width="46" height="30"/>
+                                <rect key="frame" x="41" y="47" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="editData:" destination="Dlg-IK-mS2" eventType="touchUpInside" id="Wio-cC-PPC"/>
                                     <action selector="moveRigh:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YWM-yW-bkw"/>
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="kpi-me-Jao"/>
                                 </connections>
@@ -207,7 +208,7 @@
                     <connections>
                         <outlet property="age" destination="eDL-8e-y36" id="g2T-L8-jHu"/>
                         <outlet property="introImage" destination="hFx-Uk-vG0" id="oGI-RJ-JQ9"/>
-                        <outlet property="name" destination="eDL-8e-y36" id="J2Y-k6-BFV"/>
+                        <outlet property="name" destination="1SS-Ul-Pxv" id="QNY-cc-vR7"/>
                         <outlet property="saveData" destination="T6P-vj-MGW" id="AO3-0P-aGk"/>
                     </connections>
                 </viewController>
