@@ -1,18 +1,18 @@
 //
-//  InfoViewController.m
+//  EditViewController.m
 //  SampleAgenda
 //
 //  Created by SantiagoDls on 18/01/15.
 //  Copyright (c) 2015 SantiagoDls. All rights reserved.
 //
 
-#import "InfoViewController.h"
+#import "EditViewController.h"
 
-@interface InfoViewController ()
+@interface EditViewController ()
 
 @end
 
-@implementation InfoViewController
+@implementation EditViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,14 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     // Do any additional setup after loading the view.
-    self.stepper.autorepeat=YES;
-    self.stepper.minimumValue=0;
-    self.stepper.maximumValue=100;
-    self.stepper.stepValue=20;
-    self.stepper.value=100;
-    self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,9 +46,4 @@
 }
 */
 
-- (IBAction)stepperChange:(id)sender {
-    self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
-   
-    self.intro.alpha=(double)self.stepper.value/100;
-}
 @end

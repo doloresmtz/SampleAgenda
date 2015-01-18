@@ -22,6 +22,7 @@ int iImage = 0;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
     imagesArray = [[NSMutableArray alloc] initWithObjects:@"march.gif", @"magy.jpg", @"lissa.jpg", @"homero.jpg", @"bar.gif", nil];
 }
 
