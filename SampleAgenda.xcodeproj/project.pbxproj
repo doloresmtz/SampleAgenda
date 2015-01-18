@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F83F8C7F1A6B739F0074F347 /* march.gif in Resources */ = {isa = PBXBuildFile; fileRef = F83F8C7A1A6B739F0074F347 /* march.gif */; };
+		F83F8C801A6B739F0074F347 /* magy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F83F8C7B1A6B739F0074F347 /* magy.jpg */; };
+		F83F8C811A6B739F0074F347 /* lissa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F83F8C7C1A6B739F0074F347 /* lissa.jpg */; };
+		F83F8C821A6B739F0074F347 /* homero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F83F8C7D1A6B739F0074F347 /* homero.jpg */; };
+		F83F8C831A6B739F0074F347 /* bar.gif in Resources */ = {isa = PBXBuildFile; fileRef = F83F8C7E1A6B739F0074F347 /* bar.gif */; };
 		F8F8A4671A6B72D10064E5FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F8A4661A6B72D10064E5FC /* Foundation.framework */; };
 		F8F8A4691A6B72D10064E5FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F8A4681A6B72D10064E5FC /* CoreGraphics.framework */; };
 		F8F8A46B1A6B72D10064E5FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F8A46A1A6B72D10064E5FC /* UIKit.framework */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F83F8C7A1A6B739F0074F347 /* march.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = march.gif; path = images/march.gif; sourceTree = "<group>"; };
+		F83F8C7B1A6B739F0074F347 /* magy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = magy.jpg; path = images/magy.jpg; sourceTree = "<group>"; };
+		F83F8C7C1A6B739F0074F347 /* lissa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lissa.jpg; path = images/lissa.jpg; sourceTree = "<group>"; };
+		F83F8C7D1A6B739F0074F347 /* homero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = homero.jpg; path = images/homero.jpg; sourceTree = "<group>"; };
+		F83F8C7E1A6B739F0074F347 /* bar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bar.gif; path = images/bar.gif; sourceTree = "<group>"; };
 		F8F8A4631A6B72D10064E5FC /* SampleAgenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAgenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F8A4661A6B72D10064E5FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8F8A4681A6B72D10064E5FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +92,11 @@
 		F8F8A45A1A6B72D10064E5FC = {
 			isa = PBXGroup;
 			children = (
+				F83F8C7A1A6B739F0074F347 /* march.gif */,
+				F83F8C7B1A6B739F0074F347 /* magy.jpg */,
+				F83F8C7C1A6B739F0074F347 /* lissa.jpg */,
+				F83F8C7D1A6B739F0074F347 /* homero.jpg */,
+				F83F8C7E1A6B739F0074F347 /* bar.gif */,
 				F8F8A46C1A6B72D10064E5FC /* SampleAgenda */,
 				F8F8A48B1A6B72D10064E5FC /* SampleAgendaTests */,
 				F8F8A4651A6B72D10064E5FC /* Frameworks */,
@@ -228,6 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83F8C831A6B739F0074F347 /* bar.gif in Resources */,
+				F83F8C7F1A6B739F0074F347 /* march.gif in Resources */,
+				F83F8C821A6B739F0074F347 /* homero.jpg in Resources */,
+				F83F8C801A6B739F0074F347 /* magy.jpg in Resources */,
+				F83F8C811A6B739F0074F347 /* lissa.jpg in Resources */,
 				F8F8A47F1A6B72D10064E5FC /* Images.xcassets in Resources */,
 				F8F8A4711A6B72D10064E5FC /* InfoPlist.strings in Resources */,
 				F8F8A47A1A6B72D10064E5FC /* Main.storyboard in Resources */,
@@ -456,6 +476,7 @@
 				F8F8A4971A6B72D10064E5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8F8A4981A6B72D10064E5FC /* Build configuration list for PBXNativeTarget "SampleAgendaTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +485,7 @@
 				F8F8A49A1A6B72D10064E5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
