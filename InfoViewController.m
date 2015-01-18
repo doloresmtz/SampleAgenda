@@ -26,7 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
+     self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,4 +48,7 @@
 }
 */
 
+- (IBAction)stepperChange:(id)sender {
+    self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
+}
 @end

@@ -11,6 +11,7 @@
 @interface InfoViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIStepper *stepper;
 @property (weak, nonatomic) IBOutlet UIStepper *StepperChangeValue;
+- (IBAction)stepperChange:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end

@@ -54,6 +54,9 @@
                             <stepper appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="jDs-7M-LqZ">
                                 <rect key="frame" x="113" y="254" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="stepperChange:" destination="1GT-L6-RGT" eventType="valueChanged" id="EHA-ot-EMw"/>
+                                </connections>
                             </stepper>
                             <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQU-27-ZwN" userLabel="ButtonLeft">
                                 <rect key="frame" x="239" y="37" width="46" height="30"/>
