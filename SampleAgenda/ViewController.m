@@ -23,26 +23,27 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     
-    pos = 0;
+    pos = 4; //Comenzamos con bart
     trans=100;
-    imagesArray = [[NSMutableArray alloc]
-                  initWithObjects:@"march.gif",
+    
+    imagesArray = [[NSMutableArray alloc]initWithObjects:
+                  @"march.gif",
                   @"magy.jpg",
                   @"lissa.jpg",
                   @"homero.jpg",
                   @"bar.gif",
                   nil
                   ];
-    namesArray = [[NSMutableArray alloc]
-                   initWithObjects:@"March Simpson",
+    namesArray = [[NSMutableArray alloc]initWithObjects:
+                   @"March Simpson",
                    @"Maggie Simpson",
                    @"Lissa Simpson",
                    @"Homero Simpson",
                    @"Bart Simpson",
                    nil
                    ];
-    agesArray = [[NSMutableArray alloc]
-                 initWithObjects:@"39",
+    agesArray = [[NSMutableArray alloc] initWithObjects:
+                 @"39",
                  @"1",
                  @"10",
                  @"40",

@@ -60,7 +60,7 @@
 
 - (IBAction)stepperChange:(id)sender {
     self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
-   
+    trans=self.stepper.value;
     self.intro.alpha=(double)self.stepper.value/100;
 }
 @end
