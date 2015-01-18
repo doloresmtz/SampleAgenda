@@ -14,5 +14,8 @@
 - (IBAction)stepperChange:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UIImageView *intro;
+@property (weak, nonatomic) IBOutlet UILabel *labelname;
+@property (weak, nonatomic) IBOutlet UILabel *labelage;
+@property (weak, nonatomic) IBOutlet UIImageView *introImage;
 
 @end

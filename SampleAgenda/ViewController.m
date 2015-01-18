@@ -7,9 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Globals.h"
 
-NSMutableArray  *imagesArray;
-int iImage = 0;
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imgIntro;
@@ -23,7 +22,34 @@ int iImage = 0;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    imagesArray = [[NSMutableArray alloc] initWithObjects:@"march.gif", @"magy.jpg", @"lissa.jpg", @"homero.jpg", @"bar.gif", nil];
+    
+    pos = 0;
+    trans=100;
+    imagesArray = [[NSMutableArray alloc]
+                  initWithObjects:@"march.gif",
+                  @"magy.jpg",
+                  @"lissa.jpg",
+                  @"homero.jpg",
+                  @"bar.gif",
+                  nil
+                  ];
+    namesArray = [[NSMutableArray alloc]
+                   initWithObjects:@"March Simpson",
+                   @"Maggie Simpson",
+                   @"Lissa Simpson",
+                   @"Homero Simpson",
+                   @"Bart Simpson",
+                   nil
+                   ];
+    agesArray = [[NSMutableArray alloc]
+                 initWithObjects:@"39",
+                 @"1",
+                 @"10",
+                 @"40",
+                 @"11",
+                 nil
+                 ];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -32,21 +58,21 @@ int iImage = 0;
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)moveLeft:(id)sender {
-    if (iImage > 0){
-        iImage--;
+    if (pos > 0){
+        pos--;
     }
     else{
-        iImage = 4;
+        pos = 4;
     }
-    self.imgIntro.image = [UIImage imageNamed:imagesArray[iImage]];
+    self.imgIntro.image = [UIImage imageNamed:imagesArray[pos]];
 }
 - (IBAction)moveRigh:(id)sender {
-    if (iImage >= 4){
-        iImage = 0;
+    if (pos >= 4){
+        pos = 0;
     }else{
-        iImage++;
+        pos++;
     }
-   self.imgIntro.image = [UIImage imageNamed:imagesArray[iImage]];
+   self.imgIntro.image = [UIImage imageNamed:imagesArray[pos]];
 }
 - (IBAction)goVer:(id)sender {
 }

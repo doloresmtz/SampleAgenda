@@ -82,7 +82,10 @@
                     <connections>
                         <outlet property="StepperChangeValue" destination="jDs-7M-LqZ" id="U6o-tV-hfX"/>
                         <outlet property="intro" destination="Ehl-Vn-HpY" id="cXV-sW-YFj"/>
+                        <outlet property="introImage" destination="Ehl-Vn-HpY" id="ySn-Mo-glu"/>
                         <outlet property="label" destination="QgX-ta-mHP" id="U73-QG-p3A"/>
+                        <outlet property="labelage" destination="GWb-Gp-pdw" id="Rp1-SX-c26"/>
+                        <outlet property="labelname" destination="4MW-8z-CFi" id="guI-r7-pv8"/>
                         <outlet property="stepper" destination="jDs-7M-LqZ" id="O2s-tP-PZ1"/>
                     </connections>
                 </viewController>

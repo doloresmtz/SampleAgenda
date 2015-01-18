@@ -7,6 +7,7 @@
 //
 
 #import "InfoViewController.h"
+#import "Globals.h"
 
 @interface InfoViewController ()
 
@@ -32,8 +33,12 @@
     self.stepper.minimumValue=0;
     self.stepper.maximumValue=100;
     self.stepper.stepValue=20;
-    self.stepper.value=100;
+    self.stepper.value=trans;
     self.label.text=[NSString stringWithFormat:@"%d",(int)self.stepper.value];
+    
+    self.introImage.image = [UIImage imageNamed:imagesArray[pos]];
+    self.labelname.text=namesArray[pos];
+    self.labelage.text=agesArray[pos];
 }
 
 - (void)didReceiveMemoryWarning
